@@ -1,0 +1,20 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Note-Taking application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNasson/Note-Taker.git"
+  },
+  "author": "DNasson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DNasson/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/DNasson/Note-Taker#readme"
+}
