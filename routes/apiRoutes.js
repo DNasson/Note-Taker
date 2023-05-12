@@ -1,10 +1,11 @@
 const router = require('express').Router();
 const path = require('path');   
+const { readFromFile, readAndAppend } = require('../helpers/fsUtils.js');
 
-router.get('/api/notes', (req, res) => 
-    console.info(`${req.method} request received for notes`));
-    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
-
+router.get('/api/notes', (req, res) => {
+    console.info(`${req.method} request received for notes`);
+    readFromFile('db/db.json').then((data) => res.json(JSON.parse(data)));
+    })
 router.post('/api/notes', (req, res) => {
     console.info(`${req.method} request received to add a note`);
 
@@ -16,7 +17,7 @@ router.post('/api/notes', (req, res) => {
             text,
         };
 
-        readAndAppend(newNote, './db/db.json');
+        readAndAppend(newNote, 'db/db.json');
 
         const response = {
             status: 'success',
@@ -30,3 +31,4 @@ router.post('/api/notes', (req, res) => {
     }
 });
 
+module.exports = router;
