@@ -35,6 +35,10 @@ Click on the "Get started" button on the opening page. You will be taken to the 
 
 https://warm-coast-63688.herokuapp.com/
 
+Starting screenshot: <img width="1129" alt="Screenshot 2023-05-21 at 17 46 11" src="https://github.com/DNasson/Note-Taker/assets/123035338/7594ce83-0b6c-4639-973f-4325ec9234ef">
+Notes page: <img width="1125" alt="Screenshot 2023-05-21 at 17 46 22" src="https://github.com/DNasson/Note-Taker/assets/123035338/2f6017c6-3a5e-4d34-87d9-fa4483af12b6">
+New note with save icon: <img width="1123" alt="Screenshot 2023-05-21 at 17 46 42" src="https://github.com/DNasson/Note-Taker/assets/123035338/26fb7514-178a-41c4-bb79-b2cb1c8fee2f">
+Saved note: <img width="927" alt="Screenshot 2023-05-21 at 17 46 50" src="https://github.com/DNasson/Note-Taker/assets/123035338/a3ef5e7d-72b6-4cae-acf6-24f6a1ff45c6">
 
 ## Credits
 
