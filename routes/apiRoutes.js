@@ -1,12 +1,15 @@
+// dependencies
 const router = require("express").Router();
 const { readFromFile, readAndAppend, writeToFile } = require("../helpers/fsUtils.js");
 const path = require("path");
 const uuid = require("../helpers/uuid.js");   
 
+// GET Route for retrieving all the notes
 router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../db/db.json'));    }
 );
 
+// Delete notes route
 router.delete("/notes/:id", (req, res) => {
   const noteId = req.params.note_id;
   readFromFile('./db/db.json')
@@ -23,6 +26,7 @@ router.delete("/notes/:id", (req, res) => {
     });
 });
 
+// POST Route for a new note
 router.post("/notes", (req, res) => {
   console.info(`${req.method} request received to add a note`);
   console.log(req.body);
