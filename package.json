@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/DNasson/Note-Taker/issues"
   },
-  "homepage": "https://github.com/DNasson/Note-Taker#readme",
+  "homepage": "https://github.com/DNasson/Note-Taker#index.html",
   "dependencies": {
     "express": "^4.18.2"
   }
