@@ -33,6 +33,8 @@ Open the webpage url given in the project.
 
 Click on the "Get started" button on the opening page. You will be taken to the note page with the previously saved notes on the left side of the screen, a form for a new note with title and text, and a + icon to make a new note. When there is a value entered into the note title and text areas of the form a save button will appear next to the +. You can click each note on the left side and it will open the note so you can view the text. 
 
+Starter code: https://utah.bootcampcontent.com/utah-coding-bootcamp/UofU-VIRT-FSF-PT-02-2023-U-LOLC/-/tree/main/01%20-%20Class%20Content/11-Express/02-Challenge 
+
 https://warm-coast-63688.herokuapp.com/
 
 Starting screenshot: <img width="1129" alt="Screenshot 2023-05-21 at 17 46 11" src="https://github.com/DNasson/Note-Taker/assets/123035338/7594ce83-0b6c-4639-973f-4325ec9234ef">
