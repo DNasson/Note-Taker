@@ -11,12 +11,13 @@ router.get('/notes', (req, res) => {
 
 // Delete notes route
 router.delete("/notes/:id", (req, res) => {
-  const noteId = req.params.note_id;
+  const noteId = req.params.id; // Update variable name to 'id'
+
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
       // Make a new array of all notes except the one with the ID provided in the URL
-      const result = json.filter((note) => note.note_id !== noteId);
+      const result = json.filter((note) => note.id !== noteId); // Update property name to 'id'
 
       // Save that array to the filesystem
       writeToFile('./db/db.json', result);
